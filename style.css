@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0  ;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+#sidebar{
+   
+width: 20px;
+overflow: hidden;
+background-color: gray;
+height: 100vh;
+padding:10px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+#sidebar ul{
+    display: none;
+}
+a ul{
+     width: 100px;
+     height: 100px;
+     background-color: aqua;
+     position: relative;
+}
+.divShow{
+    position: absolute;
+    top: 0;
+    left:20%;
+    width: 80%  ;
+}
+.contant{
+    text-align: center;
+    background-color: gray;
+}
+.contant h2{
+border: 2px solid rgb(43, 39, 39);
+height: 40px;
+background-color:rgba(83, 81, 81, 0.747) ;
+border-radius: 40px;
+}
+.contant p{
+margin-top: 10px;
+height: 150px;
+font-size: 16px;
+}
+
